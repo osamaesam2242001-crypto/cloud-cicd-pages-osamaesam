@@ -4,88 +4,47 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cloud Computing CI/CD Assignment</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="topbar">
-      <span class="logo"> Cloud CI/CD</span>
-      <a href="#pipeline" class="nav-link">My Pipeline</a>
-    </nav>
+  <div class="container">
+    <header class="hero">
+      <h1>Cloud Computing CI/CD Assignment</h1>
+      <p class="subtitle">A simple project deployed using GitHub Actions and GitHub Pages</p>
+    </header>
 
-    <div class="hero-content">
-      <div>
-        <p class="badge">GitHub Actions + GitHub Pages</p>
-        <h1>Cloud Computing CI/CD Website</h1>
-        <p class="intro">
-          This project is a beginner-friendly demonstration of Continuous Integration and
-          Continuous Deployment using GitHub. The website is automatically checked and deployed
-          whenever I push updates to the main branch.
-        </p>
-        <div class="meta-grid">
-          <div class="card small-card">
-            <h3>Name</h3>
-            <p>Osama Anol</p>
-          </div>
-          <div class="card small-card">
-            <h3>Course</h3>
-            <p>Cloud Computing</p>
-          </div>
-        </div>
-      </div>
+    <section class="card">
+      <h2>Student Information</h2>
+      <p><strong>Student Name:</strong> Osama Esam</p>
+      <p><strong>Course:</strong> Cloud Computing</p>
+    </section>
 
-      <div class="hero-box card">
-        <h2>What is CI/CD?</h2>
-        <p>
-          CI/CD is a modern software practice that helps developers build, test, and deliver
-          applications faster and with fewer mistakes. Continuous Integration means code changes
-          are checked automatically after each push, which helps find problems early. Continuous
-          Deployment means the newest approved version is published automatically to a live website.
-          In cloud systems, CI/CD improves speed, consistency, reliability, and team productivity.
-        </p>
-      </div>
-    </div>
-  </header>
-
-  <main class="container">
-    <section id="pipeline" class="card section-card">
-      <h2>My Pipeline</h2>
+    <section class="card">
+      <h2>What is CI/CD?</h2>
       <p>
-        After I push my code to the <strong>main</strong> branch, GitHub Actions starts the workflow
-        automatically. The workflow checks that the required project files exist, then uploads the
-        website files as an artifact. Finally, GitHub Pages deploys the latest version, and the live
-        website updates online without manual publishing.
+        CI/CD stands for Continuous Integration and Continuous Deployment.
+        It is a modern development practice that helps automate testing and deployment.
+        Continuous Integration ensures that code changes are collected and checked regularly.
+        Continuous Deployment publishes the latest version of the website automatically.
+        In this project, GitHub Actions handles the automation, while GitHub Pages hosts the final website.
       </p>
     </section>
 
-    <section class="interactive-grid">
-      <div class="card section-card">
-        <h2>Interactive JavaScript Feature</h2>
-        <p>
-          Click the button to display a success message that simulates a successful deployment.
-        </p>
-        <button id="btn" class="action-btn">Run Deployment Demo</button>
-        <p id="msg" class="message"></p>
-      </div>
-
-      <div class="card section-card info-panel">
-        <h2>Why this project matters</h2>
-        <ul>
-          <li>Automates deployment steps</li>
-          <li>Reduces manual errors</li>
-          <li>Keeps the live site updated</li>
-          <li>Shows a real cloud workflow</li>
-        </ul>
-      </div>
+    <section class="card">
+      <h2>My Pipeline</h2>
+      <p>
+        When I push my project files to the main branch on GitHub, the workflow starts automatically.
+        GitHub Actions prepares the site files and deploys them to GitHub Pages.
+        After the process finishes successfully, the updated website becomes available online.
+      </p>
     </section>
-  </main>
 
-  <footer class="footer">
-    <p>Prepared for the Cloud Computing course assignment.</p>
-  </footer>
+    <section class="card interactive">
+      <h2>Interactive Feature</h2>
+      <p id="message">Click the button to see a deployment message.</p>
+      <button onclick="showMessage()">Show Message</button>
+    </section>
+  </div>
 
   <script src="script.js"></script>
 </body>
