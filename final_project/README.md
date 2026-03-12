@@ -1,10 +1,15 @@
 # Cloud Computing CI/CD Assignment
 
-This project demonstrates a beginner-friendly CI/CD workflow using **GitHub Actions** and **GitHub Pages**.
+This project demonstrates a simple CI/CD workflow using GitHub Actions and GitHub Pages to automatically deploy a static website.
 
-## Required Details
-- **Student Name:** YOUR NAME
+## Student Information
+- **Student Name:** Osama Esam
 - **Course:** Cloud Computing
+
+## Project Overview
+This website was created as part of a cloud computing assignment.  
+It explains the basic idea of CI/CD and shows how GitHub Actions can automate deployment to GitHub Pages.  
+Whenever changes are pushed to the main branch, the workflow runs automatically and publishes the updated website.
 
 ## Project Files
 - `index.html`
@@ -15,13 +20,10 @@ This project demonstrates a beginner-friendly CI/CD workflow using **GitHub Acti
 ## GitHub Pages Link
 Add your live website link here after deployment:
 
-`https://your-username.github.io/cloud-beginner-cicd-pages-YourName/`
+`https://osamaesam2242001-crypto.github.io/cloud-cicd-pages-osamaesam/`
 
 ## Run Locally
-1. Download or clone the repository.
-2. Open `index.html` in your browser.
+To run the project locally, open the project folder and use:
 
-## Repository Name
-Use this format for the repository:
-
-`cloud-beginner-cicd-pages-YourName`
+```bash
+python -m http.server 8000
