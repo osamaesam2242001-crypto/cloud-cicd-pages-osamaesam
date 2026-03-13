@@ -3,7 +3,7 @@
 This project demonstrates a beginner-friendly CI/CD workflow using **GitHub Actions** and **GitHub Pages**.
 
 ## Required Details
-- **Student Name:** YOUR NAME
+- **Student Name:** Osama Anal 
 - **Course:** Cloud Computing
 
 ## Project Files
