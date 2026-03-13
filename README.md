@@ -14,8 +14,7 @@ This project demonstrates a beginner-friendly CI/CD workflow using **GitHub Acti
 
 ## GitHub Pages Link
 Add your live website link here after deployment:
-
-`https://your-username.github.io/cloud-beginner-cicd-pages-YourName/`
+https://osamaesam2242001-crypto.github.io/cloud-cicd-pages-osamaesam/#pipeline
 
 ## Run Locally
 1. Download or clone the repository.
